@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e9e9e9;
+    color: black;
+    width: auto;
+    height: 56px;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+nav ul li a {
+    color: Black;
+    text-decoration: none;
+}
+
+.font {
+    font-size: 100px;
+}
+
+.container {
+    height: calc(100vh - 98px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowback {
+    width: 100px;
+    height: fit-content;
+    background-color: yellow;
+    padding: 5px 5px;
+}
+
+.photo {
+    margin-left: 34px;
+}
+
+.backwords {
+    color: rgb(153, 153, 153);
+    opacity: 1;
+}
+
+.Backlinks {
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    animation: 5s fadeIn alternate infinite;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        visibility: visible;
+        opacity: 0.25;
+    }
+    50% {
+        visibility: visible;
+        opacity: 1;
+    }
+    75% {
+        visibility: visible;
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.CoreWebVitals {
+    font-size: 45px;
+    position: absolute;
+    top: 496px;
+    left: 278px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.OnPage {
+    font-size: 47px;
+    position: absolute;
+    top: 297px;
+    left: 150px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 2.64s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.OffPage {
+    font-size: 39px;
+    position: absolute;
+    top: 87px;
+    left: 494px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 2.90s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.MonthlyVisitors {
+    font-size: 35px;
+    position: absolute;
+    top: 332px;
+    left: 1021px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 1.64s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.SEMrush {
+    font-size: 30px;
+    position: absolute;
+    top: 398px;
+    left: 20px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 1.34s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.GoogleUpdates {
+    font-size: 37px;
+    position: absolute;
+    top: 207px;
+    left: 1092px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 1.23s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.Blogging {
+    font-size: 30px;
+    position: absolute;
+    top: 179px;
+    left: 451px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.SearchConsole {
+    font-size: 30px;
+    position: absolute;
+    top: 82px;
+    left: 198px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.Keywords {
+    font-size: 45px;
+    position: absolute;
+    top: 79px;
+    left: 1047px;
+    animation: 5s fadeIn alternate infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1.24s;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.DigitalMarketing {
+    font-size: 35px;
+    position: absolute;
+    top: 412px;
+    left: 1057px;
+    animation: 5s fadeIn alternate infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1.90s;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.SERP {
+    font-size: 35px;
+    position: absolute;
+    top: 426px;
+    left: 389px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.search {
+    font-size: 35px;
+    position: absolute;
+    top: 512px;
+    left: 912px;
+    animation: 5s fadeIn alternate infinite;
+    animation-delay: 2.12s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    z-index: -1;
+}
+
+Footer {
+    background-color: white;
+    height: 34px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9e9e9;
+}
